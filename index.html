@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="vertical-navbar">
+        <img src="rev-3.jpg" id="img"><br>
+       
+            <div class="container">
+                <div class="status">D.O.C :</div>
+                <div class="complete">28.04.2023</div>
+            </div>
+            <div class="container">
+            <div class="status">Status :</div>
+            <div class="complete">Complete</div>
+        </div>
+        <div class="back-home">
+            <button>Back home</button>
+        </div>
+        
+    
+             
+          <!-- Empty Navbar, can add links or content later -->
+    </div>
+    <div class="button">
+        <button class="btn">Add Beneficiaries</button>
+        <button class="btn">ADD Asset</button>
+        <button class="btn">ADD Liability</button>
+        <button class="btn">CREATE Links</button>
+        <button class="btn">ADD Sigantures</button>
+        <button class="btn">Will generation</button>
+    </div>
+    <div class="table-container">
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Relationship</th>
+                    <th>Date of Birth</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Vaishnavi</td>
+                    <td>Sister</td>
+                    <td>1988-10-04</td>
+                    <td>Active</td>
+                    <td><button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Vaishnavi</td>
+                    <td>Sister</td>
+                    <td>1988-10-04</td>
+                    <td>Inactive</td>
+                    <td><button>Edit</button>
+                        <button>Delete</button></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Ramya</td>
+                    <td>Sister</td>
+                    <td>2005-07-14</td>
+                    <td>Active</td>
+                    <td><button>Edit</button>
+                        <button>Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form-container" >
+            <h2>Add New Beneficiary</h2>
+            <form action="/submit" method="POST">
+              <!-- Name field -->
+              <div class="form-group">
+                <label for="name">S.No</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+              </div>
+        
+              <!-- Email field -->
+              <div class="form-group">
+                <label for="email">First Name</label>
+                <input type="email" id="email" name="email" required placeholder="Enter the First Name ">
+              </div>
+              <div class="form-group">
+                <label for="email">Relationship</label>
+                <input type="email" id="email" name="email" required placeholder="Enter the Relationship">
+              </div>
+              <div class="form-group">
+                <label for="email">Date of Birth</label>
+                <input type="email" id="email" name="email" required placeholder="Enter Date of Birth">
+              </div>
+        
+        
+              
+              <!-- Submit button -->
+              <div class="form-group">
+                <button type="submit" class="table-btn" >Add Beneficiary</button>
+              </div>
+            </form>
+          </div>
+        
+    </div>
+
+
+</body>
+
+</html>

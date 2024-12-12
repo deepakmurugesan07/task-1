@@ -1,0 +1,170 @@
+.vertical-navbar {
+    width:300px;
+    /* Set the width of the navbar */
+    height: 100vh;
+    /* Full height of the viewport */
+    background-color: darkblue;
+    /* Dark background color */
+    position: fixed;
+    /* Fix the navbar on the left side */
+    top: 0;
+    left: 0;
+}
+
+.vertical-navbar a {
+    display: block;
+    padding: 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.container {
+  display: flex;
+  /* justify-content: space-between; Space out the text */
+  font-size: 18px;
+  padding-top: 20px;
+}
+.status{
+  padding-left: 30px;
+  color: white;
+  font-weight: bold;
+}
+.complete{
+  padding-left:3px;
+  color:white;
+  font-weight: lighter;
+}
+.back-home button{
+
+  display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;
+
+  
+}
+#img{
+    /* border-radius: 50%;
+    object-fit: cover;
+    padding-left: 5px;
+    size: 50px;
+    padding-top:20px;
+     */
+     border-radius: 50%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    padding-left: 300px;
+
+
+}
+
+.btn {
+    padding: 15px 30px;
+    /* Size of the buttons */
+    font-size: 16px;
+    /* Button color */
+    color: aliceblue;
+    background-color: blueviolet;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.table-container {
+    padding-left: 300px;
+    width: 100%;
+    /* max-width: 800px; */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-top:50px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between cells */
+  }
+   td,th {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+
+    color:black;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for rows */
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* width: 100%; */
+    /* max-width: 100%; */
+  }
+  
+  /* Heading style */
+  h2 {
+    /* text-align: center; */
+    margin-bottom: 20px;
+  }
+  
+  /* Form group (for label and input styling) */
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Input and textarea field styles */
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  /* Submit button styling */
+  .table-btn{
+    width: 100%;
+    padding: 12px;
+    background-color:blueviolet;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the submit button */
+  button:hover {
+    background-color: #0056b3;
+  }
